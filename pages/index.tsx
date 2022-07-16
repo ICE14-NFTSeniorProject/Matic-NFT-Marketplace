@@ -9,8 +9,8 @@ import {
   nftaddress, nftmarketaddress
 } from '../config'
 
-import NFT from '../smartContract/artifacts/contracts/NFT.sol/NFT.json'
-import Market from '../smartContract/artifacts/contracts/NFTMarket.sol/NFTMarket.json'
+import NFT from '../smartContracts/NFT.json'
+import Market from '../smartContracts/NFTMarket.json'
 import { JsonRpcProvider } from '@ethersproject/providers'
 
 export default function Home() {

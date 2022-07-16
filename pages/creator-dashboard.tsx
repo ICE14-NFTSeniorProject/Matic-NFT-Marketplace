@@ -7,8 +7,8 @@ import {
   nftmarketaddress, nftaddress
 } from '../config'
 
-import NFT from '../smartContract/artifacts/contracts/NFT.sol/NFT.json'
-import Market from '../smartContract/artifacts/contracts/NFTMarket.sol/NFTMarket.json'
+import NFT from '../smartContracts/NFT.json'
+import Market from '../smartContracts/NFTMarket.json'
 import Image from 'next/image'
 
 export default function CreatorDashboard() {
